@@ -1,0 +1,12 @@
+.banner {
+    padding: 15px;
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    transition: opacity 0.5s ease; /* Smooth fade effect */
+}
+
+.hidden {
+    opacity: 0;
+    pointer-events: none; /* Prevents clicking a transparent banner */
+}
